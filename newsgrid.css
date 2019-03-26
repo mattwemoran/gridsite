@@ -1,0 +1,231 @@
+a:link{
+  text-decoration: none;
+}
+.Bklyner{
+  font-size: 300%;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.mediumpics{
+  height: auto;
+  width: 800px;
+  text-align: center;
+}
+.mediumpics2{
+  height: 400px;
+  width: auto;
+  text-align: center;
+}
+.largepics{
+  height: auto;
+  width: 1100px;
+}
+.ad{
+  height: auto;
+  width: 400px;
+}
+.piccent{
+  text-align: center;
+}
+ body{
+  font-family: futura;
+  color: black;
+}
+.navbar{
+  text-align: center;
+}
+.tabs{
+  display: inline;
+  margin-right: 40px;
+  text-align: center;
+}
+  * {box-sizing: border-box;}
+ }
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  border: 2px solid hsl a(35,100%,50%,1);
+  border-radius: 5px;
+  background-color:#8c d98c;
+  padding: 1em;
+  color: hsl a(20,100%,45%,1);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 6fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  text-align: center;
+  font-size: 20px;
+  margin-right: none;
+  background-color: #acff93;
+}
+.two { 
+  grid-column: 1 / 7;
+  grid-row: 2 / 6;
+}
+.three {
+  grid-column: 7 / 13;
+  grid-row: 2 / 6;
+}
+.four {
+  grid-column: 1 / 10;
+  grid-row: 6/ 10;
+}
+.five {
+  grid-column: 10 / 13;
+  grid-row: 6 / 10;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
+@media (max-width: 568px) {
+	.wrapper {display: block;}
+}
+
+ /*politics*/
+ .politicsheader{
+  font-size: 50px;
+  font-family: futura;
+  border-bottom-style: solid;
+  text-align: center;
+}
+.bernpic{
+  width: 775px;
+  height: auto;
+  text-align: center;
+}
+.bernheader{
+  font-size: 40px;
+}
+.polad{
+  width: 400px;
+  height: auto;
+}
+  
+  * {box-sizing: border-box;}
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  border: 2px solid h xsla(35,100%,50%,1);
+  border-radius: 5px;
+  background-color:#8c d98c;
+  padding: 1em;
+  color: hsl a(20,100%,45%,1);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 6fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.onep {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  text-align: center;
+  font-size: 20px;
+  margin-right: none;
+  background-color: #acff93;
+}
+.twop { 
+  grid-column: 1 / 13;
+  grid-row: 2 ;
+}
+.threep {
+  grid-column: 1 / 9;
+  grid-row: 3 / 6;
+}
+.fourp {
+  grid-column: 9 / 13;
+  grid-row: 3/ 6;
+}
+.fivep {
+  grid-column: 1 / 7;
+  grid-row: 6 / 10;
+}
+.sixp {
+  grid-column: 7 / 13;
+  grid-row: 6 / 10;
+}
+@media (max-width: 568px) {
+  .wrapper {display: block;}
+}
+ /*Bernstory*/
+ .byline{
+  text-align: center;
+}
+.storypic{
+width: 900px;
+height: auto;
+text-align: center;
+}
+.inlineimage{
+  width: 400px;
+  height: auto;
+  margin-left: 250px;
+}
+.map{
+  width: 400px;
+  height: auto;
+  margin-left: 210px;
+}
+ * {box-sizing: border-box;}
+ }
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  border: 2px solid hsl a(35,100%,50%,1);
+  border-radius: 5px;
+  background-color:#8c d98c;
+  padding: 1em;
+  color: hsl a(20,100%,45%,1);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 6fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.oneb {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  text-align: center;
+  font-size: 20px;
+  margin-right: none;
+  background-color: #acff93;
+}
+.twob { 
+  grid-column: 1 / 13;
+  grid-row: 2 ;
+  text-align: center;
+}
+.threeb {
+  grid-column: 3 / 11;
+  grid-row: 3/ 10;
+}
+.fourb {
+  grid-column: 2;
+  grid-row: 3;
+}
+.fiveb {
+  grid-column: 2;
+  grid-row: 4;
+}
+.sixb {
+  grid-column: 2;
+  grid-row: 5;
+}
+@media (max-width: 568px) {
+  .wrapper {display: block;}
+}
